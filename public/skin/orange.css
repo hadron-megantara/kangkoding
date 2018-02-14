@@ -1,0 +1,113 @@
+/* general */
+.bgcolor {
+	background:#ff5408;
+}
+
+.color {
+	color:#ff5408;
+}
+
+
+a.textlink {
+	color:#ff5408;
+}
+
+a:hover, .tweet.dark a:hover, ul#portfolio-filter a:hover {
+	color:#ff5408;
+}
+
+a.visiblecolor {
+	color:#ff5408;
+}
+
+a.visiblecolor:hover{
+	text-decoration:underline;
+}
+
+/* menu */
+.topnav ul li a:hover,.topnav ul li.selected a {
+	color:#ff5408;
+}
+
+header nav ul li:hover, header nav ul li.selected {
+	border-top:4px solid #ff5408;
+} 
+
+header nav ul li.selected a,header nav ul li.selected li a:hover{
+	color:#ff5408;
+} 
+
+
+/* form */
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #ff5408;
+	}
+
+#sendmessage p {
+	color:#ff5408;
+}
+
+footer a:hover {
+	color:#ff5408;
+}
+
+/* more links */
+
+.wrapped:hover a.more {
+	color:#ff5408;
+}
+
+a.striplink:hover {
+	color:#ff5408;
+	background:url(../images/orange/link-strip.png) no-repeat left;
+}
+
+a.striplink span:hover {
+	background:url(../images/orange/link-strip.png) no-repeat right;
+}
+
+
+/* Homepage */
+
+.features h5 {
+
+}
+
+.cta-area {
+
+}
+
+span.overlay:hover {
+	background-color:#ff5408;
+}
+
+/* blog, post */ 
+
+.date-box .month-year,.comment-box .comment {
+	background-color:#ff5408;
+}
+
+
+article .post-meta p.meta span.author a {
+	color:#ff5408;
+}
+
+article .post-meta p.meta span.author a:hover {
+	color:#ef4b03;
+}
+
+.comment-text .comment-author p span.name a:hover {
+	color:#ff5408;
+}
+
+/* pricing table */
+.pricing_table ul:hover { 
+	border:1px solid #ff5408;
+		-webkit-transition: all 0.5s ease;
+	  -moz-transition: all 0.5s ease;
+	  -o-transition: all 0.5s ease;
+	  transition: all  0.5s ease;
+}
