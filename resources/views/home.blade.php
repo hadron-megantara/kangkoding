@@ -47,7 +47,7 @@
 				<!-- end slide #1 -->
 
 				<!-- start slide #2 -->
-				<div data-iview-image="images/slide/trans-2.png" data-iview-transition="block-drop-random" data-iview-pausetime="4000">
+				<div data-iview-image="/images/portfolio/misslabel.png" data-iview-transition="block-drop-random" data-iview-pausetime="4000">
 					<div class="iview-caption bgbox" data-x="275" data-y="320" data-transition="expandRight">
 						<h2>Multi purpose template, <span class="bold">corporate business</span> are welcome!</h2>
 					</div>
