@@ -14,3 +14,6 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/about-us', 'GeneralController@aboutUs')->name('aboutUs');
+Route::get('/contact-us', 'GeneralController@contactUs')->name('contactUs');
+Route::get('/portfolio', 'GeneralController@portfolio')->name('portfolio');

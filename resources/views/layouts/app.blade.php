@@ -13,41 +13,59 @@
     <!-- Styles -->
     <link rel="shortcut icon" type="image/png" href="/img/icon/logo.jpg"/>
     <!-- Styles -->
+
+    <link rel="stylesheet" href="/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+  	<link rel="stylesheet" href="/css/base.css">
+  	<link rel="stylesheet" href="/css/amazium.css">
+  	<link rel="stylesheet" href="/css/iview.css">
+
+  	<link rel="stylesheet" href="/css/style.css">
+  	<link rel="stylesheet" href="/css/elements.css">
+  	<link rel="stylesheet" href="/css/sb.css">
+  	<link rel="stylesheet" href="/css/layout.css">
+  	<link rel="stylesheet" href="/skin/orange.css">
+
     <link href="/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/css/app.css" rel="stylesheet">
+    <!-- <link href="/css/app.css" rel="stylesheet"> -->
     <link href="/css/header.css" rel="stylesheet">
     <link href="/css/footer.css" rel="stylesheet">
     <link href="/css/jquery-ui.min.css" rel="stylesheet">
     <link href="/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="/css/highcharts.css" rel="stylesheet">
-
-    <!-- BEGIN PLUGIN CSS -->
-    <link href="/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/plugins/bootstrapv3/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
-    <link href="/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
-    <link href="/plugins/animate.min.css" rel="stylesheet" type="text/css" />
-    <link href="/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" />
-    <!-- END PLUGIN CSS -->
-
-    @if(session('user') || session('admin'))
-        <!-- BEGIN CORE CSS FRAMEWORK -->
-        <link href="/css/webarch.css" rel="stylesheet" type="text/css" />
-        <!-- END CORE CSS FRAMEWORK -->
-    @else
-        <link href="/css/login.css" rel="stylesheet" type="text/css" />
-    @endif
-
     <link href="/css/style.css" rel="stylesheet">
 
-    <script src="/js/jquery-1.12.4.min.js"></script>
     <script src="/js/app.js"></script>
+    <!-- <script src="/js/jquery-1.12.4.min.js"></script> -->
+    <script src="/js/jquery-1.8.3.min.js"></script>
+
+    <script src="/js/raphael-min.js" type="text/javascript"></script>
+    <script src="/js/jquery.easing.1.3.js" type="text/javascript"></script>
+
+    <script src="/js/iview/iview.js"></script>
+    <script src="/js/iview/function.js"></script>
+
+    <script src="/js/bw/jquery.blackandwhite.min.js"></script>
+    <script src="/js/bw/function.js"></script>
+
+    <script type="text/javascript" src="/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+  	<script type="text/javascript" src="/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  	<script src="/js/fancybox/function.js"></script>
+
+    <script src="/js/tooltips.js"></script>
+
+  	<script src="/js/twitter/jquery.tweet.js"></script>
+  	<script src="/js/twitter/function.js"></script>
+
+  	<script src="/js/functions.js"></script>
+
+
     <script src="/js/jquery-ui.min.js"></script>
     <script src="/js/jquery.dataTables.min.js"></script>
     <script src="/js/jquery.priceformat.min.js"></script>
     {{-- <script src="/js/highcharts.js"></script> --}}
     <script src="/js/highstock.js"></script>
     <script src="/js/spin.min.js"></script>
-
+<link rel="stylesheet" href="/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
     <!-- Scripts -->
     <script>
         window.Laravel = <?php echo json_encode([
@@ -59,20 +77,5 @@
     @include('includes.header')
     @yield('content')
     @include('includes.footer')
-
-    <!-- BEGIN CORE JS FRAMEWORK-->
-    <script src="/plugins/pace/pace.min.js" type="text/javascript"></script>
-    <!-- BEGIN JS DEPENDECENCIES-->
-    <script src="/plugins/jquery-block-ui/jqueryblockui.min.js" type="text/javascript"></script>
-    <script src="/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
-    <script src="/plugins/jquery-scrollbar/jquery.scrollbar.min.js" type="text/javascript"></script>
-    <script src="/plugins/jquery-numberAnimate/jquery.animateNumbers.js" type="text/javascript"></script>
-    <script src="/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
-    <script src="/plugins/bootstrap-select2/select2.min.js" type="text/javascript"></script>
-
-    <!-- END CORE JS DEPENDECENCIES-->
-    <!-- BEGIN CORE TEMPLATE JS -->
-    <script src="/js/webarch.js" type="text/javascript"></script>
-    <!-- END CORE TEMPLATE JS -->
 </body>
 </html>

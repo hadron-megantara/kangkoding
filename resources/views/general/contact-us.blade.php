@@ -40,9 +40,9 @@
 					<div class="iview-caption blackcaption" data-x="0" data-y="170" data-transition="wipeLeft" data-easing="easeInOutElastic">
 						<span class="features">Freely positionable and stylable elements</span>
 					</div>
-					<!-- <div class="iview-caption blackcaption" data-x="0" data-y="220" data-transition="wipeBottom" data-easing="easeInOutElastic">
+					<div class="iview-caption blackcaption" data-x="0" data-y="220" data-transition="wipeBottom" data-easing="easeInOutElastic">
 						<a href="#" class="jms-link cmedium-button reverse bold">Call desired link here</a>
-					</div> -->
+					</div>
 				</div>
 				<!-- end slide #1 -->
 
@@ -55,11 +55,11 @@
 				<!-- end slide #2 -->
 
 				<!-- start slide #3 -->
-				<!-- <div data-iview-image="images/slide/trans-3.png">
+				<div data-iview-image="images/slide/trans-3.png">
 					<div class="iview-caption highlight bgcolor" data-x="0" data-y="0" data-transition="expandLeft">
 						<h2>Clean minimal with lot of <span class="bold">features</span></h2>
 					</div>
-				</div> -->
+				</div>
 				<!-- end slide #3 -->
 
 			</div>
@@ -169,7 +169,7 @@
 		</div>
 	</div>
 
-	<!-- <div class="row">
+	<div class="row">
 		<div class="grid_12">
 			<h4 class="title">Some featured works</h4>
 		</div>
@@ -210,7 +210,7 @@
 	  </div>
 
 
-	</div> -->
+	</div>
 
 </section>
 
