@@ -3,7 +3,7 @@
 	<div class="row">
 				<div class="grid_4">
 					<div class="logo">
-						<a href="/"><img src="/img/logo-word-white.png" alt="" class="hires" style="width:200px;height:50px;margin-top:-10px;margin-left:10px" /></a>
+						<a href="/"><img src="/img/logo-word-white.png" alt="" class="hires" style="width:200px;height:50px;margin-top:-10px;margin-left:10px;z-index:99999" /></a>
 					</div>
 				</div>
 				<div class="grid_8 text-right">
