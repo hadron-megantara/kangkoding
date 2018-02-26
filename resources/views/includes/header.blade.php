@@ -14,14 +14,14 @@
 					<div class="clear"></div>
 					<div class="topnav">
 						<ul>
-							<li class="selected">
+							<li @if(\Request::is('/')) class="selected" @endif>
 								<a href="/">Home</a>
 							</li>
-							<li>
+							<li @if(\Request::is('about-us')) class="selected" @endif>
 								<a href="/about-us">About</a>
 
 							</li>
-							<li>
+							<li @if(\Request::is('portfolio')) class="selected" @endif>
 								<a href="/portfolio">Portfolio</a>
 							</li>
 							<!-- <li>

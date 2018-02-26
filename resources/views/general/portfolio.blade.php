@@ -7,7 +7,7 @@
 		<div class="grid_12">
 			<ul class="breadcrumb">
 				<li class="home"><a href="#">Home</a></li>
-				<li><span>Portfolio 2 columns</span></li>
+				<li><span>Portfolio of Kangkoding</span></li>
 			</ul>
 
 			<form id="searchForm">
@@ -59,6 +59,14 @@
 				<a href="images/portfolio/big-1.jpg" data-rel="group" class="zoom" title="2nd selected work">Zoom</a>
 			</span> -->
 			<h6 class="centered latin"><a href="http://misslabel-indonesia.com/">misslabel-indonesia.com</a></h6>
+		</li>
+
+		<li class="grid_6 img-wrapper bwWrapper design">
+			<img src="/images/portfolio/inventory.png" alt="" class="max-img" />
+			<!-- <span class="overlay">
+				<a href="images/portfolio/big-1.jpg" data-rel="group" class="zoom" title="3rd selected work">Zoom</a>
+			</span> -->
+			<h6 class="centered latin"><a href="http://207.148.78.72:10002/">www.kangkoding-inventory.com</a></h6>
 		</li>
 
 		<li class="grid_6 img-wrapper bwWrapper design">
